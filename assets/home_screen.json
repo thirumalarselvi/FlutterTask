@@ -1,0 +1,358 @@
+[
+    {
+        "type": "products",
+        "title": "Best Sellers",
+        "items": [
+            {
+                "id": "852",
+                "sku": "FP-13317",
+                "title": "Agape",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_178.jpg",
+                "description": "Black & White Midi Dress with Paisley Print",
+                "price": "AED 330.00",
+                "offer_price": "AED 115.50",
+                "productlabel": "-65%"
+            },
+            {
+                "id": "892",
+                "sku": "303154546",
+                "title": "Ioha",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_2494_1.jpg",
+                "description": "Blue Flower Print Scarf",
+                "price": "AED 350.00",
+                "offer_price": "AED 350.00",
+                "productlabel": ""
+            },
+            {
+                "id": "894",
+                "sku": "303154548",
+                "title": "Alohi",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/1/9/19-2825.jpg",
+                "description": "Orange Vintage Flower Print Scarf",
+                "price": "AED 350.00",
+                "offer_price": "AED 350.00",
+                "productlabel": ""
+            },
+            {
+                "id": "895",
+                "sku": "303154551",
+                "title": "Maile",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_2492.jpg",
+                "description": "Pink Lemon Tile Print Scarf",
+                "price": "AED 260.00",
+                "offer_price": "AED 91.00",
+                "productlabel": "-65%"
+            },
+            {
+                "id": "916",
+                "sku": "303154568",
+                "title": "Adhila",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_2520.jpg",
+                "description": "Multicolor Tile Print Scarf",
+                "price": "AED 150.00",
+                "offer_price": "AED 52.50",
+                "productlabel": "-65%"
+            },
+            {
+                "id": "985",
+                "sku": "FP-13252",
+                "title": "Sofia",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/f/p/fp-13252-1_1.jpg",
+                "description": "Multicolor Mini Dress with Floral Print",
+                "price": "AED 300.00",
+                "offer_price": "AED 300.00",
+                "productlabel": ""
+            },
+            {
+                "id": "1000",
+                "sku": "FP-13280",
+                "title": "Gabriela",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/f/p/fp-13280-1_1.jpg",
+                "description": "Orange Tunic with Pucci Print",
+                "price": "AED 300.00",
+                "offer_price": "AED 135.00",
+                "productlabel": "-55%"
+            },
+            {
+                "id": "1083",
+                "sku": "FP-3008-2",
+                "title": "Raisa-P",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/c/o/couture0804.jpg",
+                "description": "Pink Mini Dress with Zebra Design",
+                "price": "AED 280.00",
+                "offer_price": "AED 280.00",
+                "productlabel": ""
+            },
+            {
+                "id": "1108",
+                "sku": "FP-13175",
+                "title": "Rossane",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/f/p/fp-13175-1.jpg",
+                "description": "Blue Tunic with Floral Print",
+                "price": "AED 270.00",
+                "offer_price": "AED 270.00",
+                "productlabel": ""
+            },
+            {
+                "id": "1177",
+                "sku": "203154580",
+                "title": "Raven",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/1/_/1_18.jpg",
+                "description": "Black Pleated Drawstring Handbag",
+                "price": "AED 150.00",
+                "offer_price": "AED 100.00",
+                "productlabel": "-33%"
+            }
+        ]
+    },
+    {
+        "type": "products",
+        "title": "New Arrivals",
+        "items": [
+            {
+                "id": "725",
+                "sku": "303154545",
+                "title": "Venus",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/v/e/venus.jpg",
+                "description": "Yellow Floral Print Scarf",
+                "price": "AED 190.00",
+                "offer_price": "AED 76.00",
+                "productlabel": "-60%"
+            },
+            {
+                "id": "775",
+                "sku": "203154550",
+                "title": "Mesaki",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_729.jpg",
+                "description": "Brown Cross Body Bag",
+                "price": "AED 338.00",
+                "offer_price": "AED 135.20",
+                "productlabel": "-60%"
+            },
+            {
+                "id": "865",
+                "sku": "FP-13302",
+                "title": "Juniper",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_1616.jpg",
+                "description": "Beige Blouse with Romantic Floral Print",
+                "price": "AED 230.00",
+                "offer_price": "AED 230.00",
+                "productlabel": ""
+            },
+            {
+                "id": "885",
+                "sku": "FP-13246",
+                "title": "Lillium",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_1460.jpg",
+                "description": "Blue Maxi Dress with Flower Print",
+                "price": "AED 330.00",
+                "offer_price": "AED 330.00",
+                "productlabel": ""
+            },
+            {
+                "id": "887",
+                "sku": "303154550",
+                "title": "Erica",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_2498.jpg",
+                "description": "Multicolor Geometric Print Scarf",
+                "price": "AED 338.00",
+                "offer_price": "AED 338.00",
+                "productlabel": ""
+            },
+            {
+                "id": "891",
+                "sku": "303154572",
+                "title": "ULA",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_2518.jpg",
+                "description": "Soft Mint Plain Scarf",
+                "price": "AED 70.00",
+                "offer_price": "AED 28.00",
+                "productlabel": "-60%"
+            },
+            {
+                "id": "895",
+                "sku": "303154551",
+                "title": "Maile",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_2492.jpg",
+                "description": "Pink Lemon Tile Print Scarf",
+                "price": "AED 260.00",
+                "offer_price": "AED 91.00",
+                "productlabel": "-65%"
+            },
+            {
+                "id": "924",
+                "sku": "203154542",
+                "title": "Seda",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_1157_copy.jpg",
+                "description": "Brown Satchel Bag",
+                "price": "AED 370.00",
+                "offer_price": "AED 370.00",
+                "productlabel": ""
+            },
+            {
+                "id": "935",
+                "sku": "FP-13322",
+                "title": "Valentina-T",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_586_copy.jpg",
+                "description": "Green Mini Dress with Floral Print",
+                "price": "AED 260.00",
+                "offer_price": "AED 104.00",
+                "productlabel": "-60%"
+            },
+            {
+                "id": "1019",
+                "sku": "203154546",
+                "title": "Jamila",
+                "image": "https://dev.couturelabs.com/media/catalog/product/cache/e448c5aab327a9f2ee01f60070678b77/e/m/emptyname_1190_copy.jpg",
+                "description": "Brown Shoulder Bag",
+                "price": "AED 300.00",
+                "offer_price": "AED 120.00",
+                "productlabel": "-60%"
+            }
+        ]
+    },
+    {
+        "type": "products",
+        "title": "Offers for you",
+        "items": [
+            {
+                "productlabel": "-60%",
+                "__typename": "SimpleProduct",
+                "id": 912,
+                "name": "Ava",
+                "color": 24,
+                "sku": "303154564",
+                "short_description": {
+                    "html": "White Feather Print Scarf"
+                },
+                "small_image": {
+                    "url": "https://dev.couturelabs.com/media/catalog/product/cache/b8d8fe45faeda26b4dc07b7dc739a347/e/m/emptyname_2522.jpg"
+                },
+                "price_range": {
+                    "maximum_price": {
+                        "fixed_product_taxes": [],
+                        "regular_price": {
+                            "currency": "AED",
+                            "value": 120
+                        },
+                        "final_price": {
+                            "currency": "AED",
+                            "value": 48
+                        },
+                        "discount": {
+                            "amount_off": 72,
+                            "percent_off": 60
+                        }
+                    },
+                    "minimum_price": {
+                        "fixed_product_taxes": [],
+                        "regular_price": {
+                            "currency": "AED",
+                            "value": 120
+                        },
+                        "final_price": {
+                            "currency": "AED",
+                            "value": 48
+                        },
+                        "discount": {
+                            "amount_off": 72,
+                            "percent_off": 60
+                        }
+                    }
+                }
+            },
+            {
+                "productlabel": "-60%",
+                "__typename": "SimpleProduct",
+                "id": 891,
+                "name": "ULA",
+                "color": 340,
+                "sku": "303154572",
+                "short_description": {
+                    "html": "Soft Mint Plain Scarf"
+                },
+                "small_image": {
+                    "url": "https://dev.couturelabs.com/media/catalog/product/cache/b8d8fe45faeda26b4dc07b7dc739a347/e/m/emptyname_2518.jpg"
+                },
+                "price_range": {
+                    "maximum_price": {
+                        "fixed_product_taxes": [],
+                        "regular_price": {
+                            "currency": "AED",
+                            "value": 70
+                        },
+                        "final_price": {
+                            "currency": "AED",
+                            "value": 28
+                        },
+                        "discount": {
+                            "amount_off": 42,
+                            "percent_off": 60
+                        }
+                    },
+                    "minimum_price": {
+                        "fixed_product_taxes": [],
+                        "regular_price": {
+                            "currency": "AED",
+                            "value": 70
+                        },
+                        "final_price": {
+                            "currency": "AED",
+                            "value": 28
+                        },
+                        "discount": {
+                            "amount_off": 42,
+                            "percent_off": 60
+                        }
+                    }
+                }
+            },
+            {
+                "productlabel": "-60%",
+                "__typename": "SimpleProduct",
+                "id": 890,
+                "name": "Ula-p ",
+                "color": 341,
+                "sku": "303154571",
+                "short_description": {
+                    "html": "Soft Taupe Plain Scarf"
+                },
+                "small_image": {
+                    "url": "https://dev.couturelabs.com/media/catalog/product/cache/b8d8fe45faeda26b4dc07b7dc739a347/e/m/emptyname_2517.jpg"
+                },
+                "price_range": {
+                    "maximum_price": {
+                        "fixed_product_taxes": [],
+                        "regular_price": {
+                            "currency": "AED",
+                            "value": 70
+                        },
+                        "final_price": {
+                            "currency": "AED",
+                            "value": 28
+                        },
+                        "discount": {
+                            "amount_off": 42,
+                            "percent_off": 60
+                        }
+                    },
+                    "minimum_price": {
+                        "fixed_product_taxes": [],
+                        "regular_price": {
+                            "currency": "AED",
+                            "value": 70
+                        },
+                        "final_price": {
+                            "currency": "AED",
+                            "value": 28
+                        },
+                        "discount": {
+                            "amount_off": 42,
+                            "percent_off": 60
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
