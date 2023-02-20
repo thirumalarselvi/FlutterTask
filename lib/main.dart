@@ -44,7 +44,7 @@ class HomePage extends StatefulWidget {
 
 class HomePageState extends State<HomePage> {
   int selectedIndex = 0;
-  final widgetOptions = [HomeListPage(), ProductListPage(),];
+  final widgetOptions =[HomeListPage(), ProductListPage()];// [HomeListPage(), ProductListPage(),];
 
   @override
   Widget build(BuildContext context) {

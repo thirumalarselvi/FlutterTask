@@ -394,37 +394,41 @@ class HomeListPageState extends State<HomeListPage> {
                               if (productlabel.isEmpty) {
                                 productlabel = "0%";
                               }
-                              return Container(
-                                width: 100,
-                                height: 900,
-                                margin: EdgeInsets.fromLTRB(0, 0, 10, 0),
-                                color: Colors.transparent,
-                                child: Column(
-                                  children: [
-                                    Expanded(
-                                      flex: 9,
-                                      child: ClipRRect(
-                                        borderRadius: BorderRadius.circular(12),
-                                        child: InkWell(
-                                          onTap: () {},
-                                          child: GridTile(
-                                            child: Image.network(
-                                              image,
-                                              fit: BoxFit.fill,
-                                            ),
-                                            footer: Container(
-                                              child: Padding(
-                                                padding:
-                                                    const EdgeInsets.all(8.0),
-                                                child: Text(
-                                                  textAlign: TextAlign.end,
-                                                  productlabel,
-                                                  style: TextStyle(
-                                                    backgroundColor:
-                                                        Colors.white,
-                                                    fontWeight: FontWeight.bold,
-                                                    color: Colors.red,
-                                                    fontSize: 10,
+                              return GestureDetector(
+                                child: Container(
+                                  width: 100,
+                                  height: 900,
+                                  margin: EdgeInsets.fromLTRB(0, 0, 10, 0),
+                                  color: Colors.transparent,
+                                  child: Column(
+                                    children: [
+                                      Expanded(
+                                        flex: 9,
+                                        child: ClipRRect(
+                                          borderRadius:
+                                              BorderRadius.circular(12),
+                                          child: InkWell(
+                                            onTap: () {},
+                                            child: GridTile(
+                                              child: Image.network(
+                                                image,
+                                                fit: BoxFit.fill,
+                                              ),
+                                              footer: Container(
+                                                child: Padding(
+                                                  padding:
+                                                      const EdgeInsets.all(8.0),
+                                                  child: Text(
+                                                    textAlign: TextAlign.end,
+                                                    productlabel,
+                                                    style: TextStyle(
+                                                      backgroundColor:
+                                                          Colors.white,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      color: Colors.red,
+                                                      fontSize: 10,
+                                                    ),
                                                   ),
                                                 ),
                                               ),
@@ -432,69 +436,71 @@ class HomeListPageState extends State<HomeListPage> {
                                           ),
                                         ),
                                       ),
-                                    ),
-                                    Expanded(
-                                      flex: 1,
-                                      child: Text(
-                                        name,
-                                        textAlign: TextAlign.start,
-                                        style: new TextStyle(
-                                          fontFamily: 'Poppins',
-                                          fontWeight: FontWeight.w400,
-                                          fontSize: 14.0,
-                                          color: Color(0xff000000),
+                                      Expanded(
+                                        flex: 1,
+                                        child: Text(
+                                          name,
+                                          textAlign: TextAlign.start,
+                                          style: new TextStyle(
+                                            fontFamily: 'Poppins',
+                                            fontWeight: FontWeight.w400,
+                                            fontSize: 14.0,
+                                            color: Color(0xff000000),
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                    Expanded(
-                                      flex: 1,
-                                      child: Text(
-                                        description,
-                                        textAlign: TextAlign.start,
-                                        style: new TextStyle(
-                                          fontFamily: 'Poppins',
-                                          fontWeight: FontWeight.w400,
-                                          fontSize: 10.0,
-                                          color: Color(0xffA9A9A9),
+                                      Expanded(
+                                        flex: 1,
+                                        child: Text(
+                                          description,
+                                          textAlign: TextAlign.start,
+                                          style: new TextStyle(
+                                            fontFamily: 'Poppins',
+                                            fontWeight: FontWeight.w400,
+                                            fontSize: 10.0,
+                                            color: Color(0xffA9A9A9),
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                    Expanded(
-                                      flex: 2,
-                                      child: Text.rich(
-                                        TextSpan(
-                                          text: '',
-                                          children: <TextSpan>[
-                                            new TextSpan(
-                                              text: regular_price_type +
-                                                  regular_price_value
-                                                      .toString(),
-                                              style: new TextStyle(
-                                                fontFamily: 'Poppins',
-                                                fontWeight: FontWeight.w400,
-                                                fontSize: 10.0,
-                                                color: Color(0xffA9A9A9),
-                                                decoration:
-                                                    TextDecoration.lineThrough,
+                                      Expanded(
+                                        flex: 2,
+                                        child: Text.rich(
+                                          TextSpan(
+                                            text: '',
+                                            children: <TextSpan>[
+                                              new TextSpan(
+                                                text: regular_price_type +
+                                                    regular_price_value
+                                                        .toString(),
+                                                style: new TextStyle(
+                                                  fontFamily: 'Poppins',
+                                                  fontWeight: FontWeight.w400,
+                                                  fontSize: 10.0,
+                                                  color: Color(0xffA9A9A9),
+                                                  decoration: TextDecoration
+                                                      .lineThrough,
+                                                ),
                                               ),
-                                            ),
-                                            new TextSpan(
-                                              text: ' ' +
-                                                  final_price_type +
-                                                  final_price_value.toString(),
-                                              style: new TextStyle(
-                                                fontSize: 10.0,
-                                                fontFamily: 'Poppins',
-                                                fontWeight: FontWeight.w400,
-                                                color: Color(0xffD92E20),
+                                              new TextSpan(
+                                                text: ' ' +
+                                                    final_price_type +
+                                                    final_price_value
+                                                        .toString(),
+                                                style: new TextStyle(
+                                                  fontSize: 10.0,
+                                                  fontFamily: 'Poppins',
+                                                  fontWeight: FontWeight.w400,
+                                                  color: Color(0xffD92E20),
+                                                ),
                                               ),
-                                            ),
-                                          ],
+                                            ],
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                  ],
+                                    ],
+                                  ),
                                 ),
+                                onTap: () => {ProductListPage()},
                               );
                             },
                           ),
