@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'ProductListPage.dart';
+import 'HomeListPage.dart';
 
-import 'BeerListPage.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -43,10 +44,7 @@ class HomePage extends StatefulWidget {
 
 class HomePageState extends State<HomePage> {
   int selectedIndex = 0;
-  final widgetOptions = [
-    BeerListPage(),
-    Text('Add new beer'),
-  ];
+  final widgetOptions = [HomeListPage(), ProductListPage(),];
 
   @override
   Widget build(BuildContext context) {
@@ -78,59 +76,3 @@ class HomePageState extends State<HomePage> {
     });
   }
 }
-/*
-class MyStatefulWidget extends StatefulWidget {
-  const MyStatefulWidget({super.key});
-
-  @override
-  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();
-}
-
-class _MyStatefulWidgetState extends State<MyStatefulWidget> {
-  int _selectedIndex = 0;
-  List _listPages = [];
-
-  static const TextStyle optionStyle =
-  TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
- List<Widget> _widgetOptions = <Widget>[
-    HomeListPage(),
-    Text(
-      'Index 1: Business',
-      style: optionStyle,
-    ),
-  ];
-
-  void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Task1'),
-      ),
-      body: Center(
-        child: _widgetOptions.elementAt(_selectedIndex),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        items:  <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon:  Image.asset('assets/home.png'),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon:  Image.asset('assets/products.png'),
-            label: 'Products',
-          ),
-        ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
-        onTap: _onItemTapped,
-      ),
-    );
-  }
-}
-*/

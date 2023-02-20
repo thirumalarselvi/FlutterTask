@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'SectionHeaderDelegate.dart';
+import 'ProductListPage.dart';
 
 class HomeListPage extends StatefulWidget {
   const HomeListPage({super.key});
@@ -26,16 +27,13 @@ class HomeListPageState extends State<HomeListPage> {
                   var beers = json.decode(snapshot.data.toString());
                   int len = beers.length;
                   print('length = $len');
-                  return Scaffold(
+               return Scaffold(
                     body: CustomScrollView(
                       slivers: <Widget>[
 
-                        SliverPersistentHeader(
-                          delegate: SectionHeaderDelegate(beers[0]['title']),
-                          pinned: true,
-                        ),
-                        SliverToBoxAdapter(
-                          child: Container(
+                        SliverPersistentHeader(delegate: SectionHeaderDelegate(beers[0]['title']), pinned: true,),
+
+                        SliverToBoxAdapter(child: Container(
                             height: 100.0,
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
@@ -92,13 +90,10 @@ class HomeListPageState extends State<HomeListPage> {
                                 );
                               },
                             ),
-                          ),
-                        ),
+                          ),),
 
-                        SliverPersistentHeader(
-                          delegate: SectionHeaderDelegate(beers[1]['title']),
-                          pinned: true,
-                        ),
+                        SliverPersistentHeader(delegate: SectionHeaderDelegate(beers[1]['title']), pinned: true,),
+
                         SliverToBoxAdapter(
                           child: Container(
                             height: 100.0,
@@ -161,10 +156,8 @@ class HomeListPageState extends State<HomeListPage> {
                           ),
                         ),
 
-                        SliverPersistentHeader(
-                          delegate: SectionHeaderDelegate(beers[2]['title']),
-                          pinned: true,
-                        ),
+                        SliverPersistentHeader(delegate: SectionHeaderDelegate(beers[2]['title']), pinned: true,),
+
                         SliverToBoxAdapter(
                           child: Container(
                             height: 100.0,
@@ -179,8 +172,10 @@ class HomeListPageState extends State<HomeListPage> {
                                 var description =
                                 beer['items'][index]['short_description']["html"] as String;
                                 return new GestureDetector(
-                                  onTap: () =>
-                                      print('GestureDetector clicked = $index');,
+                                  onTap: () =>{
+                                   // ProductListPage();
+                                    print('GestureDetector clicked = $index'),
+                                  },
                                   child: Container(
                                     width: 100,
                                     margin: EdgeInsets.all(3),
@@ -224,9 +219,11 @@ class HomeListPageState extends State<HomeListPage> {
                             ),
                           ),
                         ),
+
                       ],
                     ),
                   );
+
                 }),
           ),
         ));
