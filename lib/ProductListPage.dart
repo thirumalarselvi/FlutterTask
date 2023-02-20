@@ -120,8 +120,56 @@ class _ProductPageState extends State<ProductPage> {
           children: _index
               .map((data) => GestureDetector(
                   onTap: () {},
-                  child:
-                  Container(
+                  child:Column(
+                    children: [
+                      Expanded(
+                        flex: 20,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(1),
+                          child: InkWell(
+                            onTap: () {},
+                            child: GridTile(
+                              child: Image.network(
+                                _items[data]["small_image"]["url"].toString(),
+                                fit: BoxFit.fill,
+                              ),
+                              footer: Container(
+                                child: Padding(
+                                  padding:
+                                  const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    textAlign: TextAlign.end,
+                                    _items[data]["price_range"]["maximum_price"]["discount"]["percent_off"].toString()+"%",
+                                    style: TextStyle(
+                                      backgroundColor:
+                                      Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.red,
+                                      fontSize: 10,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        flex: 7,
+                        child: Text(
+                          _items[data]["name"].toString(),
+                          textAlign: TextAlign.start,
+                          style: new TextStyle(
+                            fontFamily: 'Poppins',
+                            fontWeight: FontWeight.w400,
+                            fontSize: 14.0,
+                            color: Color(0xff000000),
+                          ),
+                        ),
+                      ),
+                      ],
+                  ),
+                  /*Container(
                       margin: EdgeInsets.symmetric(vertical: 5, horizontal: 5),
                       color: Colors.lightBlueAccent,
                       child: Center(
@@ -129,44 +177,11 @@ class _ProductPageState extends State<ProductPage> {
                               //data,
                               style:
                               TextStyle(fontSize: 22, color: Colors.white),
-                              textAlign: TextAlign.center)))
-          ))
-              .toList(),
+                              textAlign: TextAlign.center))
+                  )*/
+          )).toList(),
         ),
       ),
     ]));
   }
 }
-
-/*child:Row(
-mainAxisAlignment: MainAxisAlignment.center,
-children: [
-TextButton(
-onPressed: () => null,
-child: Text("Add"),
-style: ButtonStyle(
-foregroundColor: MaterialStateProperty.all(Colors.red),
-backgroundColor: MaterialStateProperty.all(Colors.white),
-shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-RoundedRectangleBorder(
-borderRadius: BorderRadius.circular(20),
-side: BorderSide(color: Colors.red))),
-),
-),
-SizedBox(
-width: 5,
-),
-TextButton(
-onPressed: () => null,
-child: Text("Buy"),
-style: ButtonStyle(
-foregroundColor: MaterialStateProperty.all(Colors.white),
-backgroundColor: MaterialStateProperty.all(Colors.red),
-shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-RoundedRectangleBorder(
-borderRadius: BorderRadius.circular(20),
-side: BorderSide(color: Colors.red))),
-),
-),
-],
-)*/
