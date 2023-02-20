@@ -136,7 +136,7 @@ class HomeListPageState extends State<HomeListPage> {
                                             padding: const EdgeInsets.all(8.0),
                                             child: Text(
                                               textAlign: TextAlign.end,
-                                              '-60%',
+                                             price+"%",
                                               style: TextStyle(
                                                 backgroundColor: Colors.white,
                                                 fontWeight: FontWeight.bold,
